@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Margarine');
+@import url('https://fonts.googleapis.com/css?family=Srisakdi');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+.blog-content {
+    font-family: 'Josefin Sans', cursive;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #231f20;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+
+.title {
+    font-family: 'Margarine', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: darkgray;
+}
+
+.header {
+    font-family: 'Srisakdi', cursive;
+}
+
+.headers {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
