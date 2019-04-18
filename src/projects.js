@@ -6,7 +6,7 @@ export const portfolio = [
     sourcecodeurl: "https://github.com/vmuthabuku/Game-Review"
   },
   {
-    title: "Movie-Serach",
+    title: "Movie-Search",
     type:"Frontend",
     description: "A website written in react js and redux you can search a movie of your choice",
     sourcecodeurl: "https://github.com/vmuthabuku/movie-search"
