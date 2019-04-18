@@ -1,9 +1,22 @@
 export const portfolio = [
   {
     title: "Game-Review",
-    type:"Backend",
-    description: "A website written in node js ",
+    type:"Backend + Frontend",
+    description: "A website written in node js for backend and react js for front-end ",
     sourcecodeurl: "https://github.com/vmuthabuku/Game-Review"
+  },
+  {
+    title: "Movie-Serach",
+    type:"Frontend",
+    description: "A website written in react js and redux you can search a movie of your choice",
+    sourcecodeurl: "https://github.com/vmuthabuku/movie-search"
+  },
+  {
+    title: "to-do-list",
+    type:"Frontend",
+    description: "A simple to-do-app written in react js ",
+    sourcecodeurl: "https://github.com/vmuthabuku/to-do-list",
+    site:"https://todo-appp.netlify.com/"
   },
   {
     title: "Node-js trial",
