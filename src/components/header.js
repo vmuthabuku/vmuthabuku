@@ -16,14 +16,12 @@ export default class Header extends Component {
         <Menu.Item>
           <img alt="none " src={require ("../images/logo.png")}/>
         </Menu.Item>
-        <Menu.Item
-          style={{fontSize:"20px"}}
-          className="header"
-          name='Vmuthabuku'
+        <Menu.Item          
+          name='Home'
           active={activeItem === 'Vmuthabuku'}
-          content='Vmuthabuku'
+          content='Home'
           onClick={this.handleItemClick}
-        ><Link to="/">Vmuthabuku</Link></Menu.Item>
+        ><Link to="/">Home</Link></Menu.Item>
         <Menu.Item
           name='Blog'
           active={activeItem === 'Blog'}
