@@ -1,8 +1,8 @@
 // import { graphql } from 'gatsby'
 
 const path = require('path')
-exports.createPages = ({boundActionCreators, graphql}) => {
-    const { createPage } = boundActionCreators
+exports.createPages = ({actions, graphql}) => {
+    const { createPage } = actions
 
     const postTemplate = path.resolve('src/templates/post.js')
 
@@ -40,3 +40,13 @@ return graphql(`
 })
 
 }
+
+exports.onCreateWebpackConfig = ({ getConfig, stage }) => {
+    const config = getConfig()
+    if (stage.startsWith('develop') && config.resolve) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        'react-dom': '@hot-loader/react-dom'
+      }
+    }
+  }

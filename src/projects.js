@@ -1,5 +1,12 @@
 export const portfolio = [
   {
+    title: "SpaceX launched rockets",
+    type:"Backend + Frontend",
+    description: "A website written in express-graphql, graphql, react apollo and react, it consumes the space X open api",
+    sourcecodeurl: "https://github.com/vmuthabuku/spaceX-launches-rockets",
+    site:"https://spacexlaunchesapp.herokuapp.com/"
+  },
+  {
     title: "Game-Review",
     type:"Backend + Frontend",
     description: "A website written in node js for backend and react js for front-end ",
