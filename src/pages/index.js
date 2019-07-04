@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Button, Card, List,  Container, Responsive,Visibility,Segment,Menu, Header, Icon, Sidebar, Grid} from 'semantic-ui-react'
+import { Card, List,  Container, Responsive,Visibility,Segment,Menu, Header, Icon, Sidebar, Grid} from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import Link from 'gatsby-link'
 // import '../css/App.css';
@@ -70,20 +70,20 @@ class Homez extends Component {
                 <Container>
                 <Menu.Item                     
                       name='Home'                
-                      content='Home'
+                     
                       onClick={this.handleItemClick}
                     ><Link to="/">Home</Link></Menu.Item>
                     <Menu.Item
                       name='Blog'
                       
-                      content='Blog'
+                      
                       onClick={this.handleItemClick}
                     ><Link to="/blog">Blog</Link></Menu.Item>
 
                     <Menu.Item
                       name='projects'
                       
-                      content='Projects'
+                      
                       onClick={this.handleItemClick}
                     ><Link to="/projects">Projects</Link></Menu.Item>
                 </Container>
@@ -152,18 +152,12 @@ class Homez extends Component {
                     <Icon name='sidebar' />
                   </Menu.Item>
                   <Menu.Item position='right'>
-                    <Button as='a' inverted>
-                      Log in
-                    </Button>
-                    <Button as='a' inverted style={{ marginLeft: '0.5em' }}>
-                      Sign Up
-                    </Button>
+                   
                   </Menu.Item>
                 </Menu>
               </Container>
               <HomepageHeading mobile />
-            </Segment>
-  
+            </Segment>  
             {children}
           </Sidebar.Pusher>
         </Responsive>
