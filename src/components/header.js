@@ -12,11 +12,12 @@ export default class Header extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu fixed="true">
+      <Menu borderless  fixed='top'>
         <Menu.Item>
           <img alt="none " src={require ("../images/logo.png")}/>
         </Menu.Item>
-        <Menu.Item          
+        <Menu.Item
+          
           name='Home'
           active={activeItem === 'Vmuthabuku'}
           content='Home'
