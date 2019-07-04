@@ -12,7 +12,7 @@ export default class Header extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu borderless  fixed='top'>
+      <Menu fixed="true">
         <Menu.Item>
           <img alt="none " src={require ("../images/logo.png")}/>
         </Menu.Item>
