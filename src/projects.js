@@ -1,5 +1,12 @@
 export const portfolio = [
   {
+    title: "github-miniclone",
+    type:"Frontend",
+    description: "A website that consumes the open graphql github-api,uses graphql, react apollo and react",
+    sourcecodeurl: "https://github.com/vmuthabuku/github-miniclone",
+    site:"https://github-miniclone.netlify.com/"
+  },  
+  {
     title: "SpaceX launched rockets",
     type:"Backend + Frontend",
     description: "A website written in express-graphql, graphql, react apollo and react, it consumes the space X open api",
