@@ -1,4 +1,17 @@
 export const portfolio = [
+{
+    title: "Movie-Search",
+    type:"Frontend",
+    description: "A website written in react js and redux you can search a movie of your choice consumes tmdb-api",
+    sourcecodeurl: "https://github.com/vmuthabuku/movie-search",
+    site:"https://vmuthabuku-movie-search.netlify.com/"
+  },
+{
+    title: "inventory-manager",
+    type:"Backend + Frontend",
+    description: "A website written in node js for backend and react and redux for front-end ",
+    sourcecodeurl: "https://github.com/vmuthabuku/inventory-manager"
+  },
   {
     title: "github-miniclone",
     type:"Frontend",
@@ -18,12 +31,6 @@ export const portfolio = [
     type:"Backend + Frontend",
     description: "A website written in node js for backend and react js for front-end ",
     sourcecodeurl: "https://github.com/vmuthabuku/Game-Review"
-  },
-  {
-    title: "Movie-Search",
-    type:"Frontend",
-    description: "A website written in react js and redux you can search a movie of your choice",
-    sourcecodeurl: "https://github.com/vmuthabuku/movie-search"
   },
   {
     title: "to-do-list",
